@@ -10,16 +10,14 @@ import java.util.Scanner;
         String opcaoE = "";
         String correta = "";
 
-        public boolean isCorreta(String resposta) {
+        public void isCorreta(String resposta) {
             if (resposta.equalsIgnoreCase(this.correta)) {
                 System.out.println("Parabéns resposta Correta! - Letra: " + this.correta);
-                System.out.println("");
-                return true;
+                System.out.println();
             } else {
                 System.out.println("Resposta Errada!");
                 System.out.println("A opção correta é a letra: " + this.correta);
-                System.out.println("");
-                return false;
+                System.out.println();
             }
         }
 
@@ -39,7 +37,7 @@ import java.util.Scanner;
                 return true;
             }
             System.out.println("Resposta inválida! Digite opção A, B, C, D ou E. ");
-            System.out.println("");
+            System.out.println();
             return false;
         }
 
@@ -76,13 +74,13 @@ import java.util.Scanner;
             questoes[1].correta = "A";
 
             questoes[2] = new Questao();
-            questoes[2].pergunta = "Em qual continente fica o deserto do Saara?";
-            questoes[2].opcaoA = "A) América";
-            questoes[2].opcaoB = "B) Ásia";
-            questoes[2].opcaoC = "C) África";
-            questoes[2].opcaoD = "D) Europa";
-            questoes[2].opcaoE = "E) Oceania";
-            questoes[2].correta = "C";
+            questoes[2].pergunta = "Qual é o nome do líder dos Autobots em Transformers?";
+            questoes[2].opcaoA = "A) Bumblebee";
+            questoes[2].opcaoB = "B) Megatron";
+            questoes[2].opcaoC = "C) Starscream";
+            questoes[2].opcaoD = "D) Optimus Prime";
+            questoes[2].opcaoE = "E) Ironhide";
+            questoes[2].correta = "D";
 
             questoes[3] = new Questao();
             questoes[3].pergunta = "Qual é o menor país do mundo?";
@@ -192,10 +190,10 @@ import java.util.Scanner;
             questoes[14].opcaoE = "E) Floresta de Sumatra";
             questoes[14].correta = "B";
 
-            for (int i = 0; i < questoes.length; i++) {
-                questoes[i].escrevaQuestao();
-                String resposta = questoes[i].leiaResposta();
-                questoes[i].isCorreta(resposta);
+            for (Questao questoe : questoes) {
+                questoe.escrevaQuestao();
+                String resposta = questoe.leiaResposta();
+                questoe.isCorreta(resposta);
             }
         }
     }
