@@ -128,13 +128,13 @@ import java.util.Scanner;
             questoes[7].correta = "C";
 
             questoes[8] = new Questao();
-            questoes[8].pergunta = "Qual é o país com o maior número de ilhas no mundo?";
-            questoes[8].opcaoA = "A) Indonésia";
-            questoes[8].opcaoB = "B) Japão";
-            questoes[8].opcaoC = "C) Filipinas";
-            questoes[8].opcaoD = "D) Suécia";
-            questoes[8].opcaoE = "E) Noruega";
-            questoes[8].correta = "D";
+            questoes[8].pergunta = "9 - Qual é o nome da primeira protagonista feminina principal da franquia Transformers, introduzida no filme Bumblebee?";
+            questoes[8].opcaoA = "A) Mikaela Banes";
+            questoes[8].opcaoB = "B) Charlie Watson";
+            questoes[8].opcaoC = "C) Carly Spencer";
+            questoes[8].opcaoD = "D) Tessa Yeager";
+            questoes[8].opcaoE = "E) Vivian Wembley";
+            questoes[8].correta = "B";
 
             questoes[9] = new Questao();
             questoes[9].pergunta = "Qual é a montanha mais alta do mundo?";
