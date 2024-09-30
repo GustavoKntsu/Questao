@@ -137,13 +137,13 @@ import java.util.Scanner;
             questoes[8].correta = "B";
 
             questoes[9] = new Questao();
-            questoes[9].pergunta = "Qual é a montanha mais alta do mundo?";
-            questoes[9].opcaoA = "A) Monte Everest";
-            questoes[9].opcaoB = "B) K2";
-            questoes[9].opcaoC = "C) Kangchenjunga";
-            questoes[9].opcaoD = "D) Lhotse";
-            questoes[9].opcaoE = "E) Makalu";
-            questoes[9].correta = "A";
+            questoes[9].pergunta = "10 - Em Transformers: O Último Cavaleiro, Optimus Prime é corrompido e passa a ser conhecido como?";
+            questoes[9].opcaoA = "A) Dark Optimus";
+            questoes[9].opcaoB = "B) Nemesis Prime";
+            questoes[9].opcaoC = "C) Fallen Prime";
+            questoes[9].opcaoD = "D) Shadow Prime";
+            questoes[9].opcaoE = "E) Galvatron";
+            questoes[9].correta = "B";
 
             questoes[10] = new Questao();
             questoes[10].pergunta = "Qual dos países abaixo não faz parte da América do Norte?";
