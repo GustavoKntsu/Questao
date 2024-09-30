@@ -182,13 +182,13 @@ import java.util.Scanner;
             questoes[13].correta = "A";
 
             questoes[14] = new Questao();
-            questoes[14].pergunta = "Qual é o nome da floresta tropical mais extensa do mundo?";
-            questoes[14].opcaoA = "A) Floresta do Congo";
-            questoes[14].opcaoB = "B) Floresta Amazônica";
-            questoes[14].opcaoC = "C) Floresta Negra";
-            questoes[14].opcaoD = "D) Floresta de Borneo";
-            questoes[14].opcaoE = "E) Floresta de Sumatra";
-            questoes[14].correta = "B";
+            questoes[14].pergunta = "15 - Quem foi o diretor de todos os cinco primeiros filmes da franquia Transformers?";
+            questoes[14].opcaoA = "A) Steven Spielberg";
+            questoes[14].opcaoB = "B) J.J. Abrams";
+            questoes[14].opcaoC = "C) Zack Snyder";
+            questoes[14].opcaoD = "D) Michael Bay";
+            questoes[14].opcaoE = "E) James Cameron";
+            questoes[14].correta = "D";
 
             for (Questao questoe : questoes) {
                 questoe.escrevaQuestao();
