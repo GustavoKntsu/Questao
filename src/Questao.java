@@ -110,13 +110,13 @@ import java.util.Scanner;
             questoes[5].correta = "B";
 
             questoes[6] = new Questao();
-            questoes[6].pergunta = "Qual é a capital da Austrália?";
-            questoes[6].opcaoA = "A) Sydney";
-            questoes[6].opcaoB = "B) Canberra";
-            questoes[6].opcaoC = "C) Melbourne";
-            questoes[6].opcaoD = "D) Brisbane";
-            questoes[6].opcaoE = "E) Perth";
-            questoes[6].correta = "B";
+            questoes[6].pergunta = "7 - Em qual filme da franquia aparece pela primeira vez o dinobot Grimlock?";
+            questoes[6].opcaoA = "A) Transformers";
+            questoes[6].opcaoB = "B) Transformers: A Vingança dos Derrotados";
+            questoes[6].opcaoC = "C) Transformers: O Lado Oculto da Lua";
+            questoes[6].opcaoD = "D) Transformers: A Era da Extinção";
+            questoes[6].opcaoE = "E) Transformers: O Último Cavaleiro";
+            questoes[6].correta = "D";
 
             questoes[7] = new Questao();
             questoes[7].pergunta = "Em qual país está localizada a Cordilheira dos Andes?";
