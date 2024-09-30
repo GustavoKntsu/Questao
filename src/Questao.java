@@ -92,13 +92,13 @@ import java.util.Scanner;
             questoes[3].correta = "A";
 
             questoes[4] = new Questao();
-            questoes[4].pergunta = "Qual país tem a maior população do mundo?";
-            questoes[4].opcaoA = "A) Índia";
-            questoes[4].opcaoB = "B) Estados Unidos";
-            questoes[4].opcaoC = "C) Indonésia";
-            questoes[4].opcaoD = "D) China";
-            questoes[4].opcaoE = "E) Brasil";
-            questoes[4].correta = "D";
+            questoes[4].pergunta = "5 - Em Transformers: A Vingança dos Derrotados, qual é o nome do antigo Prime que se torna o vilão?";
+            questoes[4].opcaoA = "A) Sentinel Prime";
+            questoes[4].opcaoB = "B) Rodimus Prime";
+            questoes[4].opcaoC = "C) Fallen";
+            questoes[4].opcaoD = "D) Nemesis Prime";
+            questoes[4].opcaoE = "E) Alpha Trion";
+            questoes[4].correta = "C";
 
             questoes[5] = new Questao();
             questoes[5].pergunta = "Qual oceano banha a costa leste do Brasil?";
