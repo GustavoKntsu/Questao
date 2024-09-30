@@ -119,13 +119,13 @@ import java.util.Scanner;
             questoes[6].correta = "D";
 
             questoes[7] = new Questao();
-            questoes[7].pergunta = "Em qual país está localizada a Cordilheira dos Andes?";
-            questoes[7].opcaoA = "A) Brasil";
-            questoes[7].opcaoB = "B) Argentina";
-            questoes[7].opcaoC = "C) Bolívia";
-            questoes[7].opcaoD = "D) Peru";
-            questoes[7].opcaoE = "E) Chile";
-            questoes[7].correta = "E";
+            questoes[7].pergunta = "8 - Quem é o arqui-inimigo de Optimus Prime ao longo da franquia Transformers?";
+            questoes[7].opcaoA = "A) Starscream";
+            questoes[7].opcaoB = "B) Galvatron";
+            questoes[7].opcaoC = "C) Megatron";
+            questoes[7].opcaoD = "D) Unicron";
+            questoes[7].opcaoE = "E) Soundwave";
+            questoes[7].correta = "C";
 
             questoes[8] = new Questao();
             questoes[8].pergunta = "Qual é o país com o maior número de ilhas no mundo?";
