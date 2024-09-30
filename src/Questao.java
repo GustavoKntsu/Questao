@@ -56,7 +56,7 @@ import java.util.Scanner;
             Questao[] questoes = new Questao[15];
 
             questoes[0] = new Questao();
-            questoes[0].pergunta = "Em qual ano foi lançado o primeiro filme da franquia Transformers, dirigido por Michael Bay?";
+            questoes[0].pergunta = "1 - Em qual ano foi lançado o primeiro filme da franquia Transformers, dirigido por Michael Bay?";
             questoes[0].opcaoA = "A) 2005";
             questoes[0].opcaoB = "B) 2007";
             questoes[0].opcaoC = "C) 2009";
@@ -65,7 +65,7 @@ import java.util.Scanner;
             questoes[0].correta = "B";
 
             questoes[1] = new Questao();
-            questoes[1].pergunta = "Qual é o nome do protagonista humano no primeiro filme de Transformers?";
+            questoes[1].pergunta = "2 - Qual é o nome do protagonista humano no primeiro filme de Transformers?";
             questoes[1].opcaoA = "A) Sam Witwicky";
             questoes[1].opcaoB = "B) Cade Yeager";
             questoes[1].opcaoC = "C) Lennox";
@@ -74,7 +74,7 @@ import java.util.Scanner;
             questoes[1].correta = "A";
 
             questoes[2] = new Questao();
-            questoes[2].pergunta = "Qual é o nome do líder dos Autobots em Transformers?";
+            questoes[2].pergunta = "3 - Qual é o nome do líder dos Autobots em Transformers?";
             questoes[2].opcaoA = "A) Bumblebee";
             questoes[2].opcaoB = "B) Megatron";
             questoes[2].opcaoC = "C) Starscream";
@@ -83,12 +83,12 @@ import java.util.Scanner;
             questoes[2].correta = "D";
 
             questoes[3] = new Questao();
-            questoes[3].pergunta = "Qual é o menor país do mundo?";
-            questoes[3].opcaoA = "A) Vaticano";
-            questoes[3].opcaoB = "B) Mônaco";
-            questoes[3].opcaoC = "C) San Marino";
-            questoes[3].opcaoD = "D) Malta";
-            questoes[3].opcaoE = "E) Liechtenstein";
+            questoes[3].pergunta = "4 - Qual é o nome do artefato poderoso que os Transformers buscam no primeiro filme?";
+            questoes[3].opcaoA = "A) O AllSpark";
+            questoes[3].opcaoB = "B) A Matriz de Liderança";
+            questoes[3].opcaoC = "C) A Espada de Cybertron";
+            questoes[3].opcaoD = "D) O Cubo Cósmico";
+            questoes[3].opcaoE = "E) O Arco da Mente";
             questoes[3].correta = "A";
 
             questoes[4] = new Questao();
