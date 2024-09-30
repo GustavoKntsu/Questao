@@ -146,13 +146,13 @@ import java.util.Scanner;
             questoes[9].correta = "B";
 
             questoes[10] = new Questao();
-            questoes[10].pergunta = "Qual dos países abaixo não faz parte da América do Norte?";
-            questoes[10].opcaoA = "A) México";
-            questoes[10].opcaoB = "B) Estados Unidos";
-            questoes[10].opcaoC = "C) Canadá";
-            questoes[10].opcaoD = "D) Cuba";
-            questoes[10].opcaoE = "E) Belize";
-            questoes[10].correta = "D";
+            questoes[10].pergunta = "11 - Qual é o planeta de origem dos Autobots e Decepticons?";
+            questoes[10].opcaoA = "A) Krypton";
+            questoes[10].opcaoB = "B) Cybertron";
+            questoes[10].opcaoC = "C) Tatooine";
+            questoes[10].opcaoD = "D) Vulcano";
+            questoes[10].opcaoE = "E) Thanos";
+            questoes[10].correta = "B";
 
             questoes[11] = new Questao();
             questoes[11].pergunta = "Qual é o principal idioma falado no Egito?";
