@@ -164,13 +164,13 @@ import java.util.Scanner;
             questoes[11].correta = "C";
 
             questoes[12] = new Questao();
-            questoes[12].pergunta = "Qual dos países abaixo é o maior exportador de petróleo do mundo?";
-            questoes[12].opcaoA = "A) Rússia";
-            questoes[12].opcaoB = "B) Estados Unidos";
-            questoes[12].opcaoC = "C) Arábia Saudita";
-            questoes[12].opcaoD = "D) Canadá";
-            questoes[12].opcaoE = "E) Irã";
-            questoes[12].correta = "C";
+            questoes[12].pergunta = "13 - Em Transformers: O Lado Oculto da Lua, qual é o nome do Autobot que se sacrifica para salvar os outros Autobots?";
+            questoes[12].opcaoA = "A) Ratchet";
+            questoes[12].opcaoB = "B) Ironhide";
+            questoes[12].opcaoC = "C) Optimus Prime";
+            questoes[12].opcaoD = "D) Jazz";
+            questoes[12].opcaoE = "E) Wheeljack";
+            questoes[12].correta = "D";
 
             questoes[13] = new Questao();
             questoes[13].pergunta = "Qual é o rio mais longo da Europa?";
