@@ -173,12 +173,12 @@ import java.util.Scanner;
             questoes[12].correta = "D";
 
             questoes[13] = new Questao();
-            questoes[13].pergunta = "Qual é o rio mais longo da Europa?";
-            questoes[13].opcaoA = "A) Rio Volga";
-            questoes[13].opcaoB = "B) Rio Danúbio";
-            questoes[13].opcaoC = "C) Rio Sena";
-            questoes[13].opcaoD = "D) Rio Reno";
-            questoes[13].opcaoE = "E) Rio Tâmisa";
+            questoes[13].pergunta = "14 - Qual desses Transformers é o segundo em comando dos Decepticons?";
+            questoes[13].opcaoA = "A) Starscream";
+            questoes[13].opcaoB = "B) Soundwave";
+            questoes[13].opcaoC = "C) Shockwave";
+            questoes[13].opcaoD = "D) Barricade";
+            questoes[13].opcaoE = "E) Blackout";
             questoes[13].correta = "A";
 
             questoes[14] = new Questao();
