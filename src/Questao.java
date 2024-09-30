@@ -101,12 +101,12 @@ import java.util.Scanner;
             questoes[4].correta = "C";
 
             questoes[5] = new Questao();
-            questoes[5].pergunta = "Qual oceano banha a costa leste do Brasil?";
-            questoes[5].opcaoA = "A) Oceano Pacífico";
-            questoes[5].opcaoB = "B) Oceano Atlântico";
-            questoes[5].opcaoC = "C) Oceano Índico";
-            questoes[5].opcaoD = "D) Oceano Ártico";
-            questoes[5].opcaoE = "E) Mar Mediterrâneo";
+            questoes[5].pergunta = "6 - Qual é o nome do personagem interpretado por Mark Wahlberg em Transformers: A Era da Extinção?";
+            questoes[5].opcaoA = "A) Sam Witwicky";
+            questoes[5].opcaoB = "B) Cade Yeager";
+            questoes[5].opcaoC = "C) William Lennox";
+            questoes[5].opcaoD = "D) Galvatron";
+            questoes[5].opcaoE = "E) Joshua Joyce";
             questoes[5].correta = "B";
 
             questoes[6] = new Questao();
