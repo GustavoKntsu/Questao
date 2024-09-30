@@ -155,13 +155,13 @@ import java.util.Scanner;
             questoes[10].correta = "B";
 
             questoes[11] = new Questao();
-            questoes[11].pergunta = "Qual é o principal idioma falado no Egito?";
-            questoes[11].opcaoA = "A) Inglês";
-            questoes[11].opcaoB = "B) Árabe";
-            questoes[11].opcaoC = "C) Francês";
-            questoes[11].opcaoD = "D) Espanhol";
-            questoes[11].opcaoE = "E) Italiano";
-            questoes[11].correta = "B";
+            questoes[11].pergunta = "12 - Qual Transformer é conhecido por se transformar em um Camaro amarelo?";
+            questoes[11].opcaoA = "A) Ratchet";
+            questoes[11].opcaoB = "B) Jazz";
+            questoes[11].opcaoC = "C) Bumblebee";
+            questoes[11].opcaoD = "D) Ironhide";
+            questoes[11].opcaoE = "E) Wheeljack";
+            questoes[11].correta = "C";
 
             questoes[12] = new Questao();
             questoes[12].pergunta = "Qual dos países abaixo é o maior exportador de petróleo do mundo?";
