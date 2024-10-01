@@ -10,6 +10,28 @@ import java.util.Scanner;
         String opcaoE = "";
         String correta = "";
 
+
+        public static class Cabecalho {
+
+            public static void main(String[] args) {
+                String faculdade = "Unifan Alfredo Nasser";
+                String aluno = "Gustavo Kenji Nunes Tsukioka";
+                String professor = "Breno Pimenta";
+
+
+            }
+
+            public static void imprimirCabecalho(String faculdade, String aluno, String professor) {
+                System.out.println("=================================");
+                System.out.println("Faculdade: " + faculdade);
+                System.out.println("Aluno: " + aluno);
+                System.out.println("Professor: " + professor);
+                System.out.println("Olá usuário você agora ira responder um quiz sobre a franquia Transformers, Boa sorte!");
+                System.out.println("=================================");
+            }
+        }
+
+
         public void isCorreta(String resposta) {
             if (resposta.equalsIgnoreCase(this.correta)) {
                 System.out.println("Parabéns resposta Correta! - Letra: " + this.correta);
@@ -52,7 +74,9 @@ import java.util.Scanner;
             System.out.println();
         }
 
+
         public static void main(String[] args) {
+            Cabecalho.imprimirCabecalho("Unifan", "Gustavo Kenji", "Breno Pimenta");
             Questao[] questoes = new Questao[15];
 
             questoes[0] = new Questao();
